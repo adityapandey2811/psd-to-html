@@ -12,20 +12,20 @@ nav { z-index: 0; }
 
 /* Upper Navbar */ 
 .top-navbar { display: flex; justify-content: center; color: #707070; height: 40px; background-color: #191919; } 
-.top-navbar-items { height: inherit; display: flex; overflow-x: auto; justify-content: space-between; align-items: center; } 
+.top-navbar-items { height: inherit; display: flex; justify-content: space-between; align-items: center; } 
 .top-navbar-icon { font-size: 17px; margin-top: 3.25px; } 
 .top-navbar-icon:hover { color: white; } 
 .top-navbar-left { display: flex; gap: 13.5px; height: inherit; align-items: center; justify-content: flex-start;} 
 .top-navbar-right { display: flex; height: inherit; align-items: center; justify-content: flex-start; box-sizing: border-box; justify-content: flex-end; width: 16%; padding-bottom: 1px; } 
 .top-navbar-right-flex { display: flex; align-items: center; padding: 1px 0px 1px 0; } 
-.top-navbar-right-text { font-family: 'Montserrat', sans-serif; font-size: 12px; margin-left: 5.5px; font-weight: 600; } 
+.top-navbar-right-text { font-family: 'Montserrat'; font-size: 12px; margin-left: 5.5px; font-weight: 600; } 
 .signin { border-right: 2px solid #707070; padding-right: 13.8px; } 
-.lang { width: 35.00%; overflow: hidden; justify-self: flex-end; margin-left: 13.8px; } 
+.lang { width: 35.00%; justify-self: flex-end; margin-left: 13.8px; } 
 .material-icons.custom-font { font-size: 18px; padding: 0px; letter-spacing: 0; } 
 .material-icons-outlined.custom-font { font-size: 18px; } 
 
 /* Main Navbar till Comments */ 
-.web-front { font-family: 'Montserrat', sans-serif;  display: flex; flex-direction: column; align-items: center;} 
+.web-front { font-family: 'Montserrat';  display: flex; flex-direction: column; align-items: center;} 
 .web-front-navbar-container { height: 66px; color: white; display: flex; align-items: center; } 
 .web-front-navbar-center { margin-left: 105px; height: inherit; display: flex; align-items: center; gap: 9.5px; } 
 .web-front-navbar-center-button { padding-top: 8px; padding-left: 14px; border-bottom: 4px solid transparent; justify-content: flex-end; gap: 3.2px; letter-spacing: 0.4px; font-size: 14px; height: inherit; font-weight: 700; display: flex; align-items: center; } 
@@ -41,12 +41,12 @@ nav { z-index: 0; }
 .front-web-front { width: 55.34%; padding-top: 216px; color: white; display: flex; flex-direction: column; align-items: center; } 
 .front-web-front-inspiration { font-size: 20px; font-weight: 400; padding-left: 2px; font-weight: 400; letter-spacing: 0.6px; } 
 .front-web-front-millennial { font-size: 42px; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; padding: 14px 0px 1px 16px; text-align: center; } 
-.front-web-front-button { background-color: #2f3f9f; height: 44px; /* percent */ width: 20%; font-size: 18px; padding-top: 2px; margin-top: 28.5px; padding-right: 1px; word-spacing: 2px; text-align: center; box-sizing: border-box; border-radius: 99px; cursor: pointer; } 
+.front-web-front-button { background-color: #2f3f9f; height: 44px; width: 20%; font-size: 18px; padding-top: 2px; margin-top: 28.5px; padding-right: 1px; word-spacing: 2px; text-align: center; box-sizing: border-box; border-radius: 99px; cursor: pointer; } 
 .front-web-front-author { display: flex; align-items: center; margin-top: 80px; padding-right: 3px; box-sizing: border-box; flex-direction: column; } 
 .web-front-author-img { border-radius: 50%; height: 52px; width: 57%; } 
 .web-front-author-link { display: flex; flex-direction: column; align-items: center; } 
 .web-front-author-name { font-weight: 700; font-size: 14px; letter-spacing: 1px; margin-top: 16px; padding-left: 2px; } 
-.web-front-author-date { font-size: 12px; margin-top: 9px; color: #8d8c8d; letter-spacing: 0.6px; font-weight: 400; display: flex; justify-content: start; align-items: center; padding-left: 5.3px; gap: 12px; } 
+.web-front-author-date { font-size: 12px; margin-top: 8px; color: #8d8c8d; letter-spacing: 0.6px; font-weight: 400; display: flex; justify-content: start; align-items: center; padding-left: 5.3px; gap: 12px; } 
 .web-front-comments-likes { letter-spacing: 0.5px; margin-top: 16.5px; display: flex; margin-right: 6.5px; padding-top: 16.5px; padding-left: 0.5px; font-size: 12px; gap: 27.5px; } 
 .web-front-comments-likes-flex { color: #bdbdbd; display: flex; gap: 5.8px; align-items: center; } 
 .material-icons-outlined.likes { font-size: 17px; } 
@@ -54,11 +54,52 @@ nav { z-index: 0; }
 
 /* Sort Blog Navbar */
 .blogs-data { margin-top: 67px; display: flex; flex-direction: column;  align-items: center; background-color: #f5f5f5; } 
-.blogs-data-nav-container { font-family: 'Montserrat', sans-serif; color: #202020; background-color: white; display: flex; align-items: center; height: 60px; justify-content: center; padding: 0 174px; } 
+.blogs-data-nav-container { font-family: 'Montserrat'; color: #202020; background-color: white; display: flex; align-items: center; height: 60px; justify-content: center; padding: 0 174px; } 
 .blogs-data-nav { display: flex; align-items: center; margin-bottom: 1px; gap: 17.6px; } 
 .blogs-data-nav-label { color: #3f51b5; border-radius: 99px; padding: 6.85px 29.95px 6.85px 25.3px; cursor: pointer; font-size: 11.6px; background-color: #f5f5f5; font-weight: 500; border-radius: 99px; color: #202020; border: 1px solid transparent; } 
-.blogs-data-sort { margin-right: 2.8px; font-weight: 700; letter-spacing: 0.5px; word-spacing: 0.1px; font-size: 11px; }  
+.blogs-data-sort {margin-left: -1px; margin-right: 4px; font-weight: 700; letter-spacing: 0.5px; word-spacing: 0.1px; font-size: 11px; }  
 .clicked {border: 1px solid #3f51b5; color: #3f51b5; border-radius: 99px; background-color: white;}
 
+/* Perfected Till Here */
 
+/* Grid Alignment */ 
+.blogs-data-content { margin-top: 30px; }
+    /* display: flex; justify-content: space-between; }  */
+.blogs-data-article-container { width: 70.085%; }  /* Add below items when adding blogs */
+    /* display: grid; column-gap: 20.5px; row-gap: 20.35px; grid-template-columns: repeat(6, 1fr); }  */
 
+/* Article Alignment and Seperate Color*/ 
+.top-item { background-color: white; /*border-radius: 3px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 1px 1px 3px #e0e0e0;*/ } 
+/* Add bottom, mid and top items */
+
+/* Blogs-data article image heights */ 
+/* .top-item .blogs-data-img-container {height: 420px;}  */
+
+/* Text */ 
+.blogs-data-text-heading { font-family: 'Montserrat'; font-weight: 700; font-size: 18px; letter-spacing: 0.35px; word-spacing: 0.38px; line-height: 24px; padding: 11px 20px 5px 19px; } 
+.blogs-data-text-body { font-family: 'Open Sans'; font-weight: 400; letter-spacing: 0.58px; word-spacing: 0.33px; line-height: 26px; font-size: 16px; padding: 0px 20px 13.5px 19px; } 
+
+/* Author */ 
+.blogs-data-author-container { padding: 19px 0px 19px 18.75px; font-family: 'Montserrat'; border-top: 0.5px solid #e0e0e0; display: flex; justify-content: space-between; align-items: center; } 
+.blogs-data-author-left { display: flex; align-items: center; margin-left: -2px; } 
+.blogs-data-author-details {padding-left: 5px;} 
+.blogs-data-author-name { font-weight: 700; letter-spacing: 0.269px; font-size: 14px; margin-bottom: 8.5px; margin-left: 5px; font-weight: 700; } 
+.blogs-data-author-date { font-size: 12px; color: #8d8c8d; letter-spacing: 0.5px; word-spacing: 0.9px; font-weight: 400; display: flex; margin-left: 4.2px; justify-content: start; align-items: end; gap: 12px; } 
+
+/* Icons, 3 dots vertical */ 
+.material-icons-outlined.vert { margin-bottom: 1px; padding-right: 11.05px; } 
+
+/* Align Image and Play Button */
+.blogs-data-img-container { position: relative; color: white; font-size: 12px; } 
+/* .blogs-data-img-container::after { content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 100%); }  */
+
+/* Blogs-data category */ 
+.blogs-data-category { font-family: 'Montserrat'; position: absolute; z-index: 1; bottom: 20px; left: 18px; } 
+
+/* Blogs-data comments likes */ 
+.blogs-data-comments-likes { position: absolute; bottom: 18px; font-family: 'Montserrat'; right: 0px; display: flex; align-items: center; justify-content: space-between; } 
+.blogs-data-comments, .blogs-data-likes { margin-bottom: 1px; display: flex; font-size: 13px; align-items: center; gap: 5.93px; margin-right: 20px;} 
+
+/* Play button */ 
+.blogs-data .material-icons-outlined.center-icon { position: absolute; top: 50%; left: 50%; cursor: pointer; margin-top: -32px; margin-left: -30px; } 
+.top-item .material-icons-outlined.center-icon {font-size: 60px;} 

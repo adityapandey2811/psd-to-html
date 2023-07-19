@@ -13,51 +13,51 @@ nav { z-index: 0; }
 /* Upper Navbar */ 
 .top-navbar { display: flex; justify-content: center; color: #707070; height: 40px; background-color: #191919; } 
 .top-navbar-items { height: inherit; display: flex; justify-content: space-between; align-items: center; } 
-.top-navbar-icon { font-size: 17px; margin-top: 3.25px; } 
+.top-navbar-icon { font-size: 17px; margin-top: 3px; } 
 .top-navbar-icon:hover { color: white; } 
-.top-navbar-left { display: flex; gap: 13.5px; height: inherit; align-items: center; justify-content: flex-start;} 
+.top-navbar-left { display: flex; gap: 13.5px; height: inherit; align-items: center; justify-content: flex-start; margin-top: 1px; } 
 .top-navbar-right { display: flex; height: inherit; align-items: center; justify-content: flex-start; box-sizing: border-box; justify-content: flex-end; width: 16%; padding-bottom: 1px; } 
 .top-navbar-right-flex { display: flex; align-items: center; padding: 1px 0px 1px 0; } 
-.top-navbar-right-text { font-family: 'Montserrat'; font-size: 12px; margin-left: 5.5px; font-weight: 600; } 
-.signin { border-right: 2px solid #707070; padding-right: 13.8px; } 
-.lang { width: 35.00%; justify-self: flex-end; margin-left: 13.8px; } 
-.material-icons.custom-font { font-size: 18px; padding: 0px; letter-spacing: 0; } 
+.top-navbar-right-text { font-family: 'Montserrat'; font-size: 12px; margin-left: 5px; font-weight: 600; } 
+.signin { border-right: 2px solid #707070; padding-right: 13px; } 
+.lang { width: 35.00%; justify-self: flex-end; margin-left: 13px; } 
+.material-icons.custom-font { font-size: 18px; padding: 0px;} 
 .material-icons-outlined.custom-font { font-size: 18px; } 
 
 /* Main Navbar till Comments */ 
 .web-front { font-family: 'Montserrat';  display: flex; flex-direction: column; align-items: center;} 
 .web-front-navbar-container { height: 66px; color: white; display: flex; align-items: center; } 
-.web-front-navbar-center { margin-left: 105px; height: inherit; display: flex; align-items: center; gap: 9.5px; } 
+.web-front-navbar-center { margin-left: 105px; height: inherit; display: flex; align-items: center; gap: 9px; } 
 .web-front-navbar-center-button { padding-top: 8px; padding-left: 14px; border-bottom: 4px solid transparent; justify-content: flex-end; gap: 3.2px; letter-spacing: 0.4px; font-size: 14px; height: inherit; font-weight: 700; display: flex; align-items: center; } 
 .web-front-navbar-center-button:hover { border-bottom: 4px solid #ff4081; } 
 .web-front-navbar-center-button.home { padding-left: 16px; } 
-.web-front-icon-container { padding: 6.7px 2px 0px 7px; display: flex; justify-content: end; width: 100%; align-items: center; } 
+.web-front-icon-container { padding: 6px 2px 0px 7px; display: flex; justify-content: end; width: 100%; align-items: center; } 
 .material-icons.web-front-expand-icon { font-size: 20px; padding-bottom: 1px; padding-left: 2px; } 
-.custom-web-front-icon { padding: 2.35px 12.5px; } 
-.custom-web-front-icon.heart { border-left: 0.5px solid white; border-right: 0.5px solid white; padding: 2.35px 11px; } 
+.custom-web-front-icon { padding: 2px 12px; } 
+.custom-web-front-icon.heart { border-left: 1px solid white; border-right: 1px solid white; padding: 2.35px 11px; } 
 .material-icons-outlined.web-front-icon-font { font-size: 24px; } 
 .material-icons.web-front-icon-font { font-size: 24px; } 
-.pasco-text { font-size: 24px; letter-spacing: 1.2px; font-weight: 700; padding-bottom: 1px; } 
+.pasco-text { font-size: 24px; letter-spacing: 1px; font-weight: 700; padding-bottom: 1px; margin-left: -2px; } 
 .front-web-front { width: 55.34%; padding-top: 216px; color: white; display: flex; flex-direction: column; align-items: center; } 
-.front-web-front-inspiration { font-size: 20px; font-weight: 400; padding-left: 2px; font-weight: 400; letter-spacing: 0.6px; } 
-.front-web-front-millennial { font-size: 42px; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; padding: 14px 0px 1px 16px; text-align: center; } 
-.front-web-front-button { background-color: #2f3f9f; height: 44px; width: 20%; font-size: 18px; padding-top: 2px; margin-top: 28.5px; padding-right: 1px; word-spacing: 2px; text-align: center; box-sizing: border-box; border-radius: 99px; cursor: pointer; } 
+.front-web-front-inspiration { font-size: 20px; font-weight: 400; padding-left: 2px; font-weight: 400; } 
+.front-web-front-millennial { font-size: 42px; font-weight: 900; text-transform: uppercase; padding: 14px 0px 1px 16px; text-align: center; } 
+.front-web-front-button { background-color: #2f3f9f; height: 44px; width: 20%; font-size: 18px; padding-top: 2px; margin-top: 29px; margin-left: 1px; padding-right: 1px; text-align: center; box-sizing: border-box; border-radius: 99px; cursor: pointer; } 
 .front-web-front-author { display: flex; align-items: center; margin-top: 80px; padding-right: 3px; box-sizing: border-box; flex-direction: column; } 
 .web-front-author-img { border-radius: 50%; height: 52px; width: 57%; } 
 .web-front-author-link { display: flex; flex-direction: column; align-items: center; } 
-.web-front-author-name { font-weight: 700; font-size: 14px; letter-spacing: 1px; margin-top: 16px; padding-left: 2px; } 
-.web-front-author-date { font-size: 12px; margin-top: 8px; color: #8d8c8d; letter-spacing: 0.6px; font-weight: 400; display: flex; justify-content: start; align-items: center; padding-left: 5.3px; gap: 12px; } 
-.web-front-comments-likes { letter-spacing: 0.5px; margin-top: 16.5px; display: flex; margin-right: 6.5px; padding-top: 16.5px; padding-left: 0.5px; font-size: 12px; gap: 27.5px; } 
-.web-front-comments-likes-flex { color: #bdbdbd; display: flex; gap: 5.8px; align-items: center; } 
+.web-front-author-name { font-weight: 700; font-size: 14px; margin-top: 15px; padding-left: 1px; } 
+.web-front-author-date { font-size: 12px; margin-top: 9px; color: #8d8c8d; font-weight: 400; display: flex; justify-content: start; align-items: center; padding-left: 5px; gap: 12px; } 
+.web-front-comments-likes { margin-top: 16px; display: flex; margin-right: 6px; padding-top: 16px; padding-left: 0.5px; font-size: 12px; gap: 27px; } 
+.web-front-comments-likes-flex { color: #bdbdbd; display: flex; gap: 6px; align-items: center; } 
 .material-icons-outlined.likes { font-size: 17px; } 
 .material-icons.comments { font-size: 17px; } 
 
 /* Sort Blog Navbar */
 .blogs-data { margin-top: 67px; display: flex; flex-direction: column;  align-items: center; background-color: #f5f5f5; } 
 .blogs-data-nav-container { font-family: 'Montserrat'; color: #202020; background-color: white; display: flex; align-items: center; height: 60px; justify-content: center; padding: 0 174px; } 
-.blogs-data-nav { display: flex; align-items: center; margin-bottom: 1px; gap: 17.6px; } 
-.blogs-data-nav-label { color: #3f51b5; border-radius: 99px; padding: 6.85px 29.95px 6.85px 25.3px; cursor: pointer; font-size: 11.6px; background-color: #f5f5f5; font-weight: 500; border-radius: 99px; color: #202020; border: 1px solid transparent; } 
-.blogs-data-sort {margin-left: -1px; margin-right: 4px; font-weight: 700; letter-spacing: 0.5px; word-spacing: 0.1px; font-size: 11px; }  
+.blogs-data-nav { display: flex; align-items: center; margin-bottom: 1px; gap: 17px; } 
+.blogs-data-nav-label { color: #3f51b5; border-radius: 99px; padding: 7px 30px 7px 25px; cursor: pointer; font-size: 11.6px; background-color: #f5f5f5; font-weight: 500; border-radius: 99px; color: #202020; border: 1px solid transparent; } 
+.blogs-data-sort {margin-left: -1px; margin-right: 4px; font-weight: 700; letter-spacing: 0.5px; font-size: 11px; }  
 .clicked {border: 1px solid #3f51b5; color: #3f51b5; border-radius: 99px; background-color: white;}
 
 /* Perfected Till Here */
@@ -65,41 +65,66 @@ nav { z-index: 0; }
 /* Grid Alignment */ 
 .blogs-data-content { margin-top: 30px; }
     /* display: flex; justify-content: space-between; }  */
-.blogs-data-article-container { width: 70.085%; }  /* Add below items when adding blogs */
+/* .blogs-data-article-container { width: 70%; }  Add below items when adding blogs */
+/* Grid styling */ 
+
+/* Add some column-gap when more rows are introduced also specify this grid-template-columns accordingly */
+.blogs-data-article-container { width: 70%; display: grid; row-gap: 20px; } 
+
+/* Adjust below properties accordingly */
+/* .top-item { grid-column: span 6; }  */
+/* .mid-top-grid-align { grid-column: span 6; } */
+
+/* Grid styling */ 
     /* display: grid; column-gap: 20.5px; row-gap: 20.35px; grid-template-columns: repeat(6, 1fr); }  */
 
 /* Article Alignment and Seperate Color*/ 
-.top-item { background-color: white; /*border-radius: 3px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 1px 1px 3px #e0e0e0;*/ } 
+.top-item, .mid-top { background-color: white; border-radius: 3px;  display: flex; flex-direction: column; box-shadow: 1px 1px 3px #e0e0e0; }
+.mid-top { flex-direction: row; height: 165.5px; }  
 /* Add bottom, mid and top items */
 
 /* Blogs-data article image heights */ 
-/* .top-item .blogs-data-img-container {height: 420px;}  */
+.top-item .blogs-data-img-container {height: 420px;} 
+.mid-top .blogs-data-img-container { height: 100%; width: 55.6%; } 
 
 /* Text */ 
-.blogs-data-text-heading { font-family: 'Montserrat'; font-weight: 700; font-size: 18px; letter-spacing: 0.35px; word-spacing: 0.38px; line-height: 24px; padding: 11px 20px 5px 19px; } 
-.blogs-data-text-body { font-family: 'Open Sans'; font-weight: 400; letter-spacing: 0.58px; word-spacing: 0.33px; line-height: 26px; font-size: 16px; padding: 0px 20px 13.5px 19px; } 
+.blogs-data-margin-top{ margin-top: 3px; }
+.blogs-data-text-heading { font-family: 'Montserrat'; font-weight: 700; font-size: 18px; line-height: 24px; padding: 11px 20px 5px 19px; } 
+.blogs-data-text-body { font-family: 'Open Sans'; font-weight: 400; line-height: 26px; font-size: 16px; padding: 0px 90px 13px 19px; } 
+.mid-top .blogs-data-text-heading { font-size: 16px; letter-spacing: 0.5px; padding: 7.48px 19px 5.8px 19px; } 
+.mid-top .blogs-data-text-body { font-size: 14px; letter-spacing: 0.51px; line-height: 21.5px; padding: 0px 19px 14.5px 18px; } 
 
 /* Author */ 
-.blogs-data-author-container { padding: 19px 0px 19px 18.75px; font-family: 'Montserrat'; border-top: 0.5px solid #e0e0e0; display: flex; justify-content: space-between; align-items: center; } 
+.blogs-data-author-container { padding: 19px 0px 21px 19px; font-family: 'Montserrat'; border-top: 0.5px solid #e0e0e0; display: flex; justify-content: space-between; align-items: center; } 
 .blogs-data-author-left { display: flex; align-items: center; margin-left: -2px; } 
-.blogs-data-author-details {padding-left: 5px;} 
-.blogs-data-author-name { font-weight: 700; letter-spacing: 0.269px; font-size: 14px; margin-bottom: 8.5px; margin-left: 5px; font-weight: 700; } 
-.blogs-data-author-date { font-size: 12px; color: #8d8c8d; letter-spacing: 0.5px; word-spacing: 0.9px; font-weight: 400; display: flex; margin-left: 4.2px; justify-content: start; align-items: end; gap: 12px; } 
+.blogs-data-author-details {padding-left: 5px; display: flex; flex-direction: column;} 
+.blogs-data-author-name { font-weight: 700; font-size: 14px; margin-bottom: 8px; margin-left: 5px; font-weight: 700; } 
+.blogs-data-author-date { font-size: 12px; color: #8d8c8d; font-weight: 400; display: flex; margin-left: 4px; justify-content: start; align-items: end; gap: 12px; } 
+.mid-top .blogs-data-author-container {padding: 9.72px 0px 9.72px 18.75px;} 
+.mid-top .blogs-data-author-left {padding-left: 2px;} 
+.mid-top .blogs-data-author-name { margin-left: 4px; margin-bottom: 7.8px; } 
+.mid-top .blogs-data-author-date{margin-left: 3.5px;} 
 
 /* Icons, 3 dots vertical */ 
-.material-icons-outlined.vert { margin-bottom: 1px; padding-right: 11.05px; } 
+.material-icons-outlined.vert { margin-bottom: 1px; padding-right: 11px; } 
+.blogs-data-img { width: 100%; height: inherit; object-position: center; object-fit: cover; } 
 
-/* Align Image and Play Button */
-.blogs-data-img-container { position: relative; color: white; font-size: 12px; } 
-/* .blogs-data-img-container::after { content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 100%); }  */
+/* Align Image */
+.blogs-data-img-container { position: relative; color: white; font-size: 12px; margin-top: 1px; } 
+.blogs-data-img-container::after { content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 100%); } 
+
 
 /* Blogs-data category */ 
-.blogs-data-category { font-family: 'Montserrat'; position: absolute; z-index: 1; bottom: 20px; left: 18px; } 
+.blogs-data-category { font-family: 'Montserrat'; position: absolute; z-index: 1; bottom: 16px; left: 18px; } 
+.mid-top .blogs-data-category {bottom: 17.2px; left: 18.8px;} 
 
 /* Blogs-data comments likes */ 
-.blogs-data-comments-likes { position: absolute; bottom: 18px; font-family: 'Montserrat'; right: 0px; display: flex; align-items: center; justify-content: space-between; } 
-.blogs-data-comments, .blogs-data-likes { margin-bottom: 1px; display: flex; font-size: 13px; align-items: center; gap: 5.93px; margin-right: 20px;} 
+.blogs-data-comments-likes { position: absolute; bottom: 15.5px; font-family: 'Montserrat', sans-serif; right: 19.8px; z-index: 1; display: flex; align-items: center; justify-content: space-between; width: 10.313%; } 
+.blogs-data-comments, .blogs-data-likes { margin-bottom: 1px; display: flex; font-size: 13px; align-items: center; gap: 6px; margin-right: 20px; flex-direction: row; } 
+.mid-top .blogs-data-comments-likes { right: 19px; bottom: 15.58px; width: 31.93%; } 
 
 /* Play button */ 
-.blogs-data .material-icons-outlined.center-icon { position: absolute; top: 50%; left: 50%; cursor: pointer; margin-top: -32px; margin-left: -30px; } 
+.blogs-data .material-icons-outlined.center-icon { position: absolute; top: 50%; left: 50%; cursor: pointer; transform: translate(-50%, -50%); } 
 .top-item .material-icons-outlined.center-icon {font-size: 60px;} 
+.mid-top .material-icons-outlined.center-icon {top: 50.85%; left: 50.4%; font-size: 45.7px;} 
+.mid-bottom .material-icons-outlined.center-icon {font-size: 46.1px;} 

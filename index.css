@@ -46,8 +46,8 @@ nav { z-index: 0; }
 .web-front-author-img { border-radius: 50%; height: 52px; width: 57%; } 
 .web-front-author-link { display: flex; flex-direction: column; align-items: center; } 
 .web-front-author-name { font-weight: 700; font-size: 14px; margin-top: 15px; padding-left: 1px; } 
-.web-front-author-date { font-size: 12px; margin-top: 9px; color: #8d8c8d; font-weight: 400; display: flex; justify-content: start; align-items: center; padding-left: 5px; gap: 12px; } 
-.web-front-comments-likes { margin-top: 16px; display: flex; margin-right: 6px; padding-top: 16px; padding-left: 0.5px; font-size: 12px; gap: 27px; } 
+.web-front-author-date { font-size: 12.5px; margin-top: 9px; color: #8d8c8d; font-weight: 400; display: flex; justify-content: start; align-items: center; padding-left: 5px; gap: 12px; } 
+.web-front-comments-likes { margin-top: 16px; display: flex; margin-right: 6px; padding-top: 16px; padding-left: 0.5px; font-size: 12.5px; gap: 27px; } 
 .web-front-comments-likes-flex { color: #bdbdbd; display: flex; gap: 6px; align-items: center; } 
 .material-icons-outlined.likes { font-size: 17px; } 
 .material-icons.comments { font-size: 17px; } 
@@ -56,8 +56,8 @@ nav { z-index: 0; }
 .blogs-data { margin-top: 67px; display: flex; flex-direction: column;  align-items: center; background-color: #f5f5f5; } 
 .blogs-data-nav-container { font-family: 'Montserrat'; color: #202020; background-color: white; display: flex; align-items: center; height: 60px; justify-content: center; padding: 0 174px; } 
 .blogs-data-nav { display: flex; align-items: center; margin-bottom: 1px; gap: 17px; } 
-.blogs-data-nav-label { color: #3f51b5; border-radius: 99px; padding: 7px 30px 7px 25px; cursor: pointer; font-size: 11.6px; background-color: #f5f5f5; font-weight: 500; border-radius: 99px; color: #202020; border: 1px solid transparent; } 
-.blogs-data-sort {margin-left: -1px; margin-right: 4px; font-weight: 700; letter-spacing: 0.5px; font-size: 11px; }  
+.blogs-data-nav-label { color: #3f51b5; border-radius: 99px; padding: 8px 30px 7px 25px; cursor: pointer; font-size: 11.5px; background-color: #f5f5f5; font-weight: 500; border-radius: 99px; color: #202020; border: 1px solid transparent; } 
+.blogs-data-sort {margin-top: 1px; margin-right: 4px; font-weight: 700; letter-spacing: 0.5px; font-size: 11px; }  
 .clicked {border: 1px solid #3f51b5; color: #3f51b5; border-radius: 99px; background-color: white;}
 
 /* Perfected Till Here */
@@ -82,7 +82,7 @@ nav { z-index: 0; }
 .top-item, .mid-top { background-color: white; border-radius: 3px;  display: flex; flex-direction: column; box-shadow: 1px 1px 3px #e0e0e0; }
 .mid-top { flex-direction: row; height: 165.5px; }  
 /* Add bottom, mid and top items */
-
+.top-item{ margin-top: 1px; }
 /* Blogs-data article image heights */ 
 .top-item .blogs-data-img-container {height: 420px;} 
 .mid-top .blogs-data-img-container { height: 100%; width: 55.6%; } 
@@ -107,11 +107,11 @@ nav { z-index: 0; }
 
 /* Icons, 3 dots vertical */ 
 .material-icons-outlined.vert { margin-bottom: 1px; padding-right: 11px; } 
-.blogs-data-img { width: 100%; height: inherit; object-position: center; object-fit: cover; } 
+.blogs-data-img { width: 100%; height: inherit; object-position: center; object-fit: cover; border-radius: 3px; } 
 
 /* Align Image */
-.blogs-data-img-container { position: relative; color: white; font-size: 12px; margin-top: 1px; } 
-.blogs-data-img-container::after { content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 100%); } 
+.blogs-data-img-container { position: relative; color: white; font-size: 12px; } 
+.blogs-data-img-container::after { content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; border-radius: 3px; background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 100%); } 
 
 
 /* Blogs-data category */ 

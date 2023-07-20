@@ -71,7 +71,7 @@ nav { z-index: 0; }
 /* Grid styling */ 
 
 /* Add some column-gap when more rows are introduced also specify this grid-template-columns accordingly */
-.blogs-data-article-container { width: 70%; display: grid; row-gap: 20px; } 
+.blogs-data-article-container { width: 70%; display: grid; row-gap: 21px; } 
 
 /* Adjust below properties accordingly */
 /* .top-item { grid-column: span 6; }  */
@@ -87,7 +87,7 @@ nav { z-index: 0; }
 .top-item{ margin-top: 1px; }
 /* Blogs-data article image heights */ 
 .top-item .blogs-data-img-container {height: 420px;} 
-.mid-top .blogs-data-img-container { height: 100%; width: 55.6%; } 
+.mid-top .blogs-data-img-container { height: 100%; width: 458px; } 
 
 /* Text */ 
 .blogs-data-margin-top{ margin-top: 3px; }
@@ -100,7 +100,7 @@ nav { z-index: 0; }
 .blogs-data-author-container { padding: 19px 0px 16.5px 19px; font-family: 'Montserrat', sans-serif; border-top: 0.5px solid #e0e0e0; display: flex; justify-content: space-between; align-items: center; } 
 .blogs-data-author-left { display: flex; align-items: center; margin-left: -2px; } 
 .blogs-data-author-details {padding-left: 5px; display: flex; flex-direction: column;} 
-.blogs-data-author-name {letter-spacing: 0.269px; font-weight: 700; font-size: 14px; margin-bottom: 8.5px; margin-left: 5px; font-weight: 700; } 
+.blogs-data-author-name {letter-spacing: 0.269px; font-weight: 700; font-size: 14.5px; margin-bottom: 8.5px; margin-left: 5px; font-weight: 700; } 
 .blogs-data-author-date {letter-spacing: 0.5px; word-spacing: 0.9px; font-size: 12px; color: #8d8c8d; font-weight: 400; display: flex; margin-left: 4.5px; justify-content: start; align-items: end; gap: 12px; padding-bottom: 2.5px; } 
 .mid-top .blogs-data-author-container {padding: 9.72px 0px 9.72px 18.75px;} 
 .mid-top .blogs-data-author-left {padding-left: 2px;} 

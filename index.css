@@ -43,12 +43,12 @@ nav { z-index: 0; }
 .front-web-front-millennial { font-size: 42px; font-weight: 900; text-transform: uppercase; padding: 14px 0px 1px 16px; text-align: center; } 
 .front-web-front-button { background-color: #2f3f9f; height: 44px; width: 20%; font-size: 18px; padding-top: 2px; margin-top: 29px; margin-left: 1px; padding-right: 1px; text-align: center; box-sizing: border-box; border-radius: 99px; cursor: pointer; } 
 .front-web-front-author { display: flex; align-items: center; margin-top: 80px; padding-right: 3px; box-sizing: border-box; flex-direction: column; } 
-.web-front-author-img { border-radius: 50%; height: 52px; width: 57%; } 
+.web-front-author-img { border-radius: 50%; height: 52px; width: 57.453%; object-position: center; object-fit: cover; } 
 .web-front-author-link { display: flex; flex-direction: column; align-items: center; } 
-.web-front-author-name { font-weight: 700; font-size: 14px; margin-top: 15px; padding-left: 1px; } 
-.web-front-author-date { font-size: 12.5px; margin-top: 9px; color: #8d8c8d; font-weight: 400; display: flex; justify-content: start; align-items: center; padding-left: 5px; gap: 12px; } 
-.web-front-comments-likes { margin-top: 16px; display: flex; margin-right: 6px; padding-top: 16px; padding-left: 0.5px; font-size: 12.5px; gap: 27px; } 
-.web-front-comments-likes-flex { color: #bdbdbd; display: flex; gap: 6px; align-items: center; } 
+.web-front-author-name { font-weight: 700; font-size: 13px; letter-spacing: 1px; margin-top: 16px; padding-left: 2px; } 
+.web-front-author-date { font-size: 13px; margin-top: 9px; color: #8d8c8d; letter-spacing: 0.3px; font-weight: 400; display: flex; justify-content: start; align-items: center; padding-left: 10px; gap: 12px; } 
+.web-front-comments-likes { letter-spacing: 0.5px; margin-top: 16px; display: flex; margin-right: 6.5px; padding-top: 16.5px; font-size: 12px; gap: 27.5px; } 
+.web-front-comments-likes-flex { color: #bdbdbd; display: flex; gap: 5.8px; align-items: center; } 
 .material-icons-outlined.likes { font-size: 17px; } 
 .material-icons.comments { font-size: 17px; } 
 

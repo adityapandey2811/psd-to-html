@@ -91,16 +91,16 @@ nav { z-index: 0; }
 
 /* Text */ 
 .blogs-data-margin-top{ margin-top: 3px; }
-.blogs-data-text-heading { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 18px; line-height: 24px; padding: 11px 20px 5px 19px; } 
+.blogs-data-text-heading { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 18px; line-height: 24px; padding: 11px 20px 5px 19px; margin-top: 2.5px;} 
 .blogs-data-text-body { font-family: 'Open Sans'; font-weight: 400; line-height: 26px; font-size: 16px; padding: 0px 90px 13px 19px; } 
 .mid-top .blogs-data-text-heading { font-size: 16px; letter-spacing: 0.5px; padding: 7.48px 19px 5.8px 19px; } 
 .mid-top .blogs-data-text-body { font-size: 14px; letter-spacing: 0.51px; line-height: 21.5px; padding: 0px 19px 14.5px 18px; } 
 
 /* Author */ 
-.blogs-data-author-container { padding: 19px 0px 21px 19px; font-family: 'Montserrat', sans-serif; border-top: 0.5px solid #e0e0e0; display: flex; justify-content: space-between; align-items: center; } 
+.blogs-data-author-container { padding: 19px 0px 16.5px 19px; font-family: 'Montserrat', sans-serif; border-top: 0.5px solid #e0e0e0; display: flex; justify-content: space-between; align-items: center; } 
 .blogs-data-author-left { display: flex; align-items: center; margin-left: -2px; } 
 .blogs-data-author-details {padding-left: 5px; display: flex; flex-direction: column;} 
-.blogs-data-author-name { font-weight: 700; font-size: 14px; margin-bottom: 8px; margin-left: 5px; font-weight: 700; } 
+.blogs-data-author-name { font-weight: 700; font-size: 14px; margin-bottom: 9px; margin-left: 6px; font-weight: 700; } 
 .blogs-data-author-date { font-size: 12px; color: #8d8c8d; font-weight: 400; display: flex; margin-left: 4px; justify-content: start; align-items: end; gap: 12px; } 
 .mid-top .blogs-data-author-container {padding: 9.72px 0px 9.72px 18.75px;} 
 .mid-top .blogs-data-author-left {padding-left: 2px;} 
@@ -117,7 +117,7 @@ nav { z-index: 0; }
 
 
 /* Blogs-data category */ 
-.blogs-data-category { font-family: 'Montserrat', sans-serif; position: absolute; z-index: 1; bottom: 16px; left: 18px; } 
+.blogs-data-category { font-family: 'Montserrat', sans-serif; position: absolute; z-index: 1; bottom: 17px; left: 18px; } 
 .mid-top .blogs-data-category {bottom: 17.2px; left: 18.8px;} 
 
 /* Blogs-data comments likes */ 

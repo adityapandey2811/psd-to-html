@@ -109,7 +109,7 @@ nav { z-index: 0; }
 
 /* Icons, 3 dots vertical */ 
 .material-icons-outlined.vert { margin-bottom: 1px; padding-right: 11px; } 
-.blogs-data-img { width: 100%; height: inherit; object-position: center; object-fit: cover; border-radius: 3px; } 
+.blogs-data-img { width: 100%; height: 100%; object-position: center; object-fit: cover; border-radius: 3px; } 
 
 /* Align Image */
 .blogs-data-img-container { position: relative; color: white; font-size: 12px; } 

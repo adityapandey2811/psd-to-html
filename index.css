@@ -107,7 +107,7 @@ nav { z-index: 0; }
 .mid-top .blogs-data-author-date{margin-left: 4px;} 
 
 /* Icons, 3 dots vertical */ 
-.material-icons-outlined.vert { margin-bottom: 1px; padding-right: 11px; } 
+.material-icons-outlined.vert { margin-bottom: 5px; padding-right: 11px; } 
 .blogs-data-img { width: 100%; height: 100%; object-position: center; object-fit: cover; border-radius: 3px; } 
 
 /* Align Image */

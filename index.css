@@ -122,7 +122,9 @@ nav { z-index: 0; }
 /* Blogs-data comments likes */ 
 .blogs-data-comments-likes { position: absolute; bottom: 15.5px; font-family: 'Montserrat', sans-serif; right: 19.8px; z-index: 1; display: flex; align-items: center; justify-content: space-between; width: 10.313%; } 
 .blogs-data-comments, .blogs-data-likes { margin-bottom: 1px; display: flex; font-size: 13px; align-items: center; gap: 6px; margin-right: 20px; flex-direction: row; } 
-.mid-top .blogs-data-comments-likes { right: 19px; bottom: 15.58px; width: 31.93%; } 
+.mid-top .blogs-data-comments { margin-right: 18px; }
+.mid-top .blogs-data-likes { gap: 5.5px; }
+.mid-top .blogs-data-comments-likes { right: 21px; bottom: 15.58px; width: 31.93%; } 
 
 /* Play button */ 
 .blogs-data .material-icons-outlined.center-icon { position: absolute; top: 50%; left: 50%; cursor: pointer; transform: translate(-50%, -50%); } 
